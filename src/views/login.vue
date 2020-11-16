@@ -6,6 +6,9 @@
         <h1>Vuebook</h1>
         <p>Welcome to the Vuebook. This is a sample social media web app I build on Vue2 and Firebase.
           The project serves the purpose of my job application</p>
+          <p>Demo Account: abc@xyz.com <br>
+             Pass: 123456
+          </p>
       </div>
       <div :class="{ 'signup-form': !showLoginForm }" class="col2">
         <form v-if="showLoginForm" @submit.prevent>
