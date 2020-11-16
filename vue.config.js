@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/Vuebook/'
+  publicPath: process.env.NODE_ENV === 'production' ? '/vue-router-github-pages/' : '/'
 }
